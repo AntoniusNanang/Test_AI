@@ -1,0 +1,18 @@
+Begin Object Class=/Script/Engine.AimOffsetBlendSpace1D Name="AO_CarryWeight"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   PreviewBasePose=AnimSequence'"/Game/GrabComponent/Mannequin/Animations/Animations/Anim_Walk.Anim_Walk"'
+   InterpolationParam(0)=(InterpolationTime=0.500000)
+   SampleData(0)=(Animation=AnimSequence'"/Game/GrabComponent/Mannequin/Animations/Animations/Anim_Weight_Light.Anim_Weight_Light"')
+   SampleData(1)=(Animation=AnimSequence'"/Game/GrabComponent/Mannequin/Animations/Animations/Anim_Weight_Heavy.Anim_Weight_Heavy"',SampleValue=(X=100.000000,Y=0.000000,Z=0.000000))
+   GridSamples(0)=(Indices[0]=1,Indices[1]=0,Weights[1]=1.000000)
+   GridSamples(1)=(Indices[0]=1,Indices[1]=0,Weights[0]=0.250000,Weights[1]=0.750000)
+   GridSamples(2)=(Indices[0]=1,Indices[1]=0,Weights[0]=0.500000,Weights[1]=0.500000)
+   GridSamples(3)=(Indices[0]=1,Indices[1]=0,Weights[0]=0.750000,Weights[1]=0.250000)
+   GridSamples(4)=(Indices[0]=1,Indices[1]=0,Weights[0]=1.000000)
+   BlendParameters(0)=(DisplayName="Weight")
+   Skeleton=Skeleton'"/Game/GrabComponent/Mannequin/Character/Mesh/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
